@@ -1,0 +1,17 @@
+.test {
+    padding-top: 200px;
+    background-color: aquamarine;
+    color: red;
+}
+
+.intervention {
+    display: grid;
+    grid-template: 1fr / 3em repeat(1fr/7);
+    background-color: rgb(50, 50, 50);
+}
+
+.intervention-label {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}

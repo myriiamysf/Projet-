@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    /* position: fixed; */
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #1c1c1c;
+}
+
+.navbar-menu{
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar-menu li{
+    padding: 0 1rem;
+}
+
+.navbar-menu li a{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+    text-decoration: none;
+    cursor: default;
+}

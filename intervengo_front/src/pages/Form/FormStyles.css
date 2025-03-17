@@ -1,0 +1,103 @@
+/* .form {
+    display: flex;
+    justify-content: center;
+}
+
+.form-base {
+    width: 60%;
+    padding: 12px;
+    background-color: rgba(173, 153, 187, 0.651);
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    display: flex;
+    color: azure;
+    font-weight: bold;
+}
+
+.items {
+    display: flex;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+}
+
+.item-input {
+    border-radius: 8px;
+    padding: 2px 5px;
+}
+
+.item-area {
+    border-radius: 8px;
+    padding: 2px 5px;
+    width: 110%;
+    height: 100px;
+    resize: none;
+}
+
+.canva {
+    border: 2px solid black;
+}
+
+
+.button {
+    margin-top: 6px;
+    font-weight: 900;
+    color: azure;
+    background-color: rgba(57, 4, 94, 0.651);
+    border-radius: 12px;
+} */
+
+
+.formulaire {
+    display: flex;
+    justify-content: center;
+}
+
+.formulaire-base {
+    width: 600px;
+    padding: 12px;
+    background-color: rgba(173, 153, 187, 0.651);
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: azure;
+    font-weight: bold;
+}
+
+.object {
+    display: flex;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 8px;
+}
+
+.object-input {
+    width: 80%;
+    border-radius: 8px;
+    padding: 2px 5px;
+}
+
+.object-area {
+    border-radius: 8px;
+    padding: 2px 5px;
+    width: 80%;
+    height: 100px;
+    resize: none;
+}
+
+.canva {
+    border: 2px solid black;
+}
+
+
+.bouton {
+    margin-top: 6px;
+    font-weight: 900;
+    color: azure;
+    background-color: rgba(57, 4, 94, 0.651);
+    border-radius: 12px;
+}
