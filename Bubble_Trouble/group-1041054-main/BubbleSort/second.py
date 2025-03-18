@@ -1,0 +1,5 @@
+f= open("nombres.txt") 
+print (f.read()) 
+f= open("nombres.txt") 
+listN= (f.read()) 
+print (listN)
