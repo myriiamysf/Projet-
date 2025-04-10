@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html, body, canvas{
+	margin: 0;
+	padding: 0;
+	background: black;
+	display:block;
+	color:rgb(169, 152, 119);
+	font-family: Verdana, sans-serif;
+	font-size: 13px;
+}
+canvas{
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none
+}
+a{
+	color: #d96500;
+}
+.page{
+	margin: 0 auto;
+	width: 980px;
+	display: flex;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+}
+
+.Jouer {
+	width: 500px;
+	height: 500px;
+	background-color: rgb(58, 56, 56);
+	margin-top: 100px;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 20px;
+	font-weight: bold;
+	border: solid 2px bisque;
+}
+
+.text{
+	color: white;
+}
+.texta {
+	color: white;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.startButton{
+	border-radius: 5px;
+	background-color: rgb(85, 52, 52);
+	border: solid 1px bisque;
+	padding: 7px;
+	font-weight: bold;
+	color : white;
+}
+
+</style>
+</head>
+<body>
+	<div class="page">
+		<div id="gameInfo" class="Jouer">
+			<p class="text">Click to move </p>
+			<p class="texta">Click to pick up items</p>
+			<button class="startButton" onclick="startGame()">Start</button>
+		</div>
+
+		<canvas id="floor" width="980" height="661"></canvas>
+		<p>Isometric minimal-code style game at html5 canvas and javascript.</p>
+		<p>See more at <a href="https://github.com/mitallast/diablo-js">github</a></p>
+	</div>
+	<div id="monster-kill-counter" style="position: absolute; top: 50px; left: 10px; color: white; font-size: 18px; background: rgba(0,0,0,0.5); padding: 5px 10px; border-radius: 8px;">
+		Monsters killed : 0
+	</div>
+<script>/*window.onerror=alert*/</script>
+<script src="diablo.js"></script>
+</body>
+</html>
