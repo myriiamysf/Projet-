@@ -1,0 +1,7 @@
+*.pyc
+project.lock.json
+bin/
+package-lock.json
+*.spec.js
+__pycache__
+node_modules/
